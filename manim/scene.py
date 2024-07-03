@@ -27,7 +27,7 @@ class CreateNeuralNetwork(Scene):
         self.wait(2)
         self.play(FadeOut(title))
 
-        # Define the neural network layers
+        # Define the neural network layers.
         input_layer = Text("Input Layer: 28x28").shift(UP * 3)
         hidden_layer1 = Text("Hidden Layer 1: 512 neurons").shift(UP * 1.5)
         hidden_layer2 = Text("Hidden Layer 2: 512 neurons").shift(DOWN * 0)
